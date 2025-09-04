@@ -1,8 +1,8 @@
-# backend/api/tests.py
 from http import HTTPStatus
 
+from django.test import Client, TestCase
+
 from . import models
-from django.test import Client, TestCase  # type: ignore
 
 
 class TaskiAPITestCase(TestCase):
